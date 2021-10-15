@@ -552,12 +552,7 @@ dtb-$(CONFIG_ARCH_ASPEED) += ast2500-evb.dtb
 
 dtb-$(CONFIG_ARCH_STI) += stih410-b2260.dtb
 
-dtb-$(CONFIG_TARGET_STM32MP1) += \
-	stm32mp157a-dk1.dtb \
-	stm32mp157c-dk2.dtb \
-	stm32mp157a-adk1_v530-mx.dtb \
-	stm32mp157c-ed1.dtb \
-	stm32mp157c-ev1.dtb
+dtb-$(CONFIG_TARGET_STM32MP1) += stm32mp157a-dk1.dtb stm32mp157c-dk2.dtb stm32mp157a-adk1_v530-mx.dtb stm32mp157c-ed1.dtb stm32mp157c-ev1.dtb
 
 dtb-$(CONFIG_SOC_K3_AM6) += k3-am654-base-board.dtb
 
